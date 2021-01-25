@@ -1,5 +1,4 @@
-// const reverseNestedObj = require('./reverse-nested-obj.js')
-const reverseNestedObj = require('./ignore/while-loop-version.js')
+const reverseNestedObj = require('./reverse-nested-obj.js')
 
 test('Reverse nested objects with single key in every layer', () => {
   expect(
