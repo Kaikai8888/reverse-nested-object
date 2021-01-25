@@ -30,3 +30,29 @@ function isObject(variable) {
 }
 
 module.exports = reverseNestedObj
+
+//-------Check------//
+// Input:
+let inputValue = {
+  hired: {
+    be: {
+      to: {
+        deserve: 'I'
+      }
+    }
+  }
+};
+
+// Output:
+let outputValue = {
+  I: {
+    deserve: {
+      to: {
+        be: 'hired'
+      }
+    }
+  }
+};
+
+const result = reverseNestedObj(inputValue)
+console.log('result', result)
